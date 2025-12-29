@@ -1,0 +1,15 @@
+{
+  "name": "Plush Maker Farm",
+  "short_name": "Plush Farm",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f6efe4",
+  "theme_color": "#f6efe4",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}
