@@ -106,9 +106,9 @@
 			width: clamp(34px, 7vw, 42px);
 			height: clamp(34px, 7vw, 42px);
 			border-radius: 12px;
-			background: #fff;
-			border: 2px solid rgba(0,0,0,0.08);
-			padding: 4px;
+			background: transparent;
+			border: none;
+			object-fit: contain;
 		}
 
 		.craft-actions{
@@ -502,7 +502,7 @@
 	<main class="app">
 		<header class="header">
 			<div class="header-left">
-				<img class="header-icon" src="icons/icon.svg" alt="Kanade plushie icon" />
+				<img class="header-icon" src="plush.png" alt="Kanade plushie" />
 				<div class="kanade-total"><span id="kanadeCount">0</span> Kanade Plushies</div>
 			</div>
 		</header>
@@ -559,7 +559,7 @@
 
 		<section class="panel farm" id="farm" aria-label="Farm plots"></section>
 
-		<div class="footer">Version 0.0</div>
+		<div class="footer">Version 0.1</div>
 	</main>
 
 	<div class="modal" id="saveModal" aria-hidden="true">
