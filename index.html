@@ -96,6 +96,21 @@
 			margin-bottom: clamp(8px, 2.4vw, 12px);
 		}
 
+		.header-left{
+			display: flex;
+			align-items: center;
+			gap: 10px;
+		}
+
+		.header-icon{
+			width: clamp(34px, 7vw, 42px);
+			height: clamp(34px, 7vw, 42px);
+			border-radius: 12px;
+			background: #fff;
+			border: 2px solid rgba(0,0,0,0.08);
+			padding: 4px;
+		}
+
 		.craft-actions{
 			display: flex;
 			align-items: center;
@@ -486,7 +501,10 @@
 <body>
 	<main class="app">
 		<header class="header">
-			<div class="kanade-total"><span id="kanadeCount">0</span> Kanade Plushies</div>
+			<div class="header-left">
+				<img class="header-icon" src="icons/icon.svg" alt="Kanade plushie icon" />
+				<div class="kanade-total"><span id="kanadeCount">0</span> Kanade Plushies</div>
+			</div>
 		</header>
 
 		<section class="panel craft">
