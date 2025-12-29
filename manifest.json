@@ -1,13 +1,13 @@
 {
-  "name": "Plush Maker Farm",
-  "short_name": "Plush Farm",
+  "name": "PlushClickerMobile",
+  "short_name": "PlushClickerMobile",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#f6efe4",
   "theme_color": "#f6efe4",
   "icons": [
     {
-      "src": "icon.svg",
+      "src": "icon.svg?v=2",
       "sizes": "512x512",
       "type": "image/svg+xml"
     }
